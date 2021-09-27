@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<body>
+
+<h1>Matching list</h1>
+
+<div>
+    <table border="1">
+
+        <tr>
+            <th scope="col">ID</th>
+        </tr>
+
+
+        <tr th:each="element : ${mapResult}">
+            <td th:text="${element.key}"></td>
+            <td>
+                <table>
+                    <tr>
+                        <th scope="col">Label</th>
+                        <th scope="col">Data</th>
+                    </tr>
+                    <tr th:each="el : ${element.value}">
+                        <td th:text="${el.label}">Label</td>
+                        <td th:text="${el.data}">Data</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+    </table>
+</div>
+
+<hr/>
+
+</body>
+</html>
