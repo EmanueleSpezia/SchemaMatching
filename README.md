@@ -1,5 +1,4 @@
-# Schema Matching
-# Progetto NOAH
+# Schema Matching - Progetto NOAH
 
 # Obiettivi
 1. Effettuare queries al DBMS NoSQL Clickhouse
