@@ -1,5 +1,5 @@
 # Schema Matching
-Big Data exam project, phase two of the biggest NOAH project
+# Progetto NOAH
 
 # Obiettivi
 1. Effettuare queries al DBMS NoSQL Clickhouse
